@@ -1,0 +1,1 @@
+curl -d @"name_basics.json" -H "Content-Type: application/json" -X POST http://localhost:8083/connectors

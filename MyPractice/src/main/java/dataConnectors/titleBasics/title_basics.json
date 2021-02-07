@@ -1,0 +1,15 @@
+{
+  "name": "tsv_title_basics_spooldir",
+  "config": {
+    "connector.class":"com.github.jcustenborder.kafka.connect.spooldir.SpoolDirCsvSourceConnector",
+    "input.path":"/home/appuser/title_basics",
+    "input.file.pattern":"title.basics.tsv",
+    "error.path":"/home/appuser/imdb_error",
+    "finished.path":"/home/appuser/imdb_ok",
+    "halt.on.error":"false",
+    "topic":"title-basics-tsv-topic",
+    "schema.generation.enabled":"true",
+    "csv.first.row.as.header":"true",
+    "csv.separator.char": 9
+  }
+}
