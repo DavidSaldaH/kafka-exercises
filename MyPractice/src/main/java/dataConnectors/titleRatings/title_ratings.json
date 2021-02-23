@@ -2,7 +2,7 @@
   "name": "tsv_title_ratings_spooldir",
   "config": {
     "connector.class":"com.github.jcustenborder.kafka.connect.spooldir.SpoolDirCsvSourceConnector",
-    "input.path":"/home/appuser/title_ratings",
+    "input.path":"/home/appuser/datasets/title-ratings",
     "input.file.pattern":"title.ratings.tsv",
     "error.path":"/home/appuser/imdb_error",
     "finished.path":"/home/appuser/imdb_ok",

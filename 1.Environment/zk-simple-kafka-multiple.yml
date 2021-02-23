@@ -117,6 +117,10 @@
       volumes:
         - ./host-volume/connectors:/home/appuser/connectors
         - ./host-volume/datasets:/home/appuser/datasets
+        - ./host-volume/datasets/name-basics:/home/appuser/datasets/name-basics
+        - ./host-volume/datasets/title-basics:/home/appuser/datasets/title-basics
+        - ./host-volume/datasets/title-ratings:/home/appuser/datasets/title-ratings
+        - ./host-volume/datasets/title-principals:/home/appuser/datasets/title-principals
         - ./host-volume/imdb_ok:/home/appuser/imdb_ok
         - ./host-volume/imdb_error:/home/appuser/imdb_error
 

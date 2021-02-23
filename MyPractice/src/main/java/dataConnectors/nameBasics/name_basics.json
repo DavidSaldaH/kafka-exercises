@@ -2,7 +2,7 @@
   "name": "tsv_name_basics_spooldir",
   "config": {
     "connector.class":"com.github.jcustenborder.kafka.connect.spooldir.SpoolDirCsvSourceConnector",
-    "input.path":"/home/appuser/datasets",
+    "input.path":"/home/appuser/datasets/name-basics",
     "input.file.pattern":"name.basics.*",
     "error.path":"/home/appuser/imdb_error",
     "finished.path":"/home/appuser/imdb_ok",

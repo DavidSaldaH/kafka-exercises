@@ -6,5 +6,8 @@
 /5.JavaKafkaConnectAPI/5.JavaKafkaConnectAPI.iml
 /4.JavaKafkaStreamAPI/target/
 /4.JavaKafkaStreamAPI/JavaKafkaStreamAPI.iml
-/1.Environment/host-volume/datasets/*
+/1.Environment/host-volume/datasets/name-basics/name.basics.*
+/1.Environment/host-volume/datasets/title-basics/title.basics.*
+/1.Environment/host-volume/datasets/title-principals/title.principals.*
+/1.Environment/host-volume/datasets/title-ratings/title.ratings.*
 /MyPractice/MyPractice.iml
